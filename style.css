@@ -4,7 +4,7 @@ body{
     padding: 0px;
 }
 /*------------------ nav section -----------*/
-.nav_contoner{
+.nav_contoner {
   padding: 36px;
 width: 1400px;
 height: 990px;
@@ -51,7 +51,7 @@ font-size: 20px;
     margin-left: 27%;
 }
 
-.Brand-head-txt{
+.Brand-head-txt, .features{
 width: 662px; 
 height: 100px; 
 color: #131313;
@@ -59,7 +59,7 @@ font-weight: 700;
 font-size: 44px;
 text-align: center;
 }
-.Brand-discption{
+.Brand-discption , .features-discption{
     margin-right: 20%;
 font-weight: 300;
 font-size: 16px;
@@ -68,6 +68,7 @@ text-align: center;
 color: #727272;
 }
 .Brand-btn{
+    border-color: #FF900E;
  margin-left: 30%;
 height: 64px;
 background: #FF900E;
@@ -95,4 +96,61 @@ margin-top: 4%;
     height: 500px;
      border-radius: 8px;
 }
+/* --------------features- main-cection-------- */
+.features-cont{
+    display: flex;
+    justify-content: center;
+}
+.features-info{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap:10px ;
+    grid-row-gap:10px ;
+    height:10px ;
+    margin-left: 150px;
+}
 
+
+div img{
+    width: 290px;
+    height: 270px;
+    border-radius: 8px;
+}
+/* -------- */
+.features{
+    width: 468px;
+    height: 106px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #FF900E;
+    
+}
+.Quick-list{
+    width: 468px;
+    height: 106px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+    color: #727272;
+}
+.of-Our{
+    width: 468px;
+    height: 106px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+     color: #131313;
+}
+/* ---------- */
+.features-cont{
+    padding: 36px;
+    width: 1400px;
+    height: 990px;
+}
+
+.features-info-txt{
+    margin-left: 20px;
+    margin-top: 80px;
+}
