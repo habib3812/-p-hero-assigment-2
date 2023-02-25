@@ -100,6 +100,7 @@ margin-top: 4%;
 .features-cont{
     display: flex;
     justify-content: center;
+    margin-left: 5pc ;
 }
 .features-info{
     display: grid;
@@ -107,7 +108,7 @@ margin-top: 4%;
     grid-column-gap:10px ;
     grid-row-gap:10px ;
     height:10px ;
-    margin-left: 150px;
+    margin-left: 100px;
 }
 
 
@@ -147,10 +148,161 @@ div img{
 .features-cont{
     padding: 36px;
     width: 1400px;
-    height: 990px;
+    height: 600px;
 }
 
-.features-info-txt{
+.features-info-text{
     margin-left: 20px;
     margin-top: 80px;
 }
+
+/*---------------------------- Features_enjoy_contaner --------------------*/
+.Features_enjoy_contaner{
+   
+    width: 540px;
+    height: 870px;
+    margin-left: 14% ;
+}
+.text-contner{ 
+    padding: 5px;
+     display: flex;
+    width: 1086px;
+     height: 882px;
+    /* margin-bottom: 10%; */
+
+}
+.Features_enjoy{
+    font-size: 27px;
+}
+.border-left-color{
+    border-left:6px solid #FF900E; 
+    width: 486px;
+    height: 100px;
+}
+.Features_enjoy_txt{
+   
+    width: 968px;
+height: 106px;
+font-weight: 700;
+font-size: 40px;
+line-height: 53px;
+color: #131313;
+}
+
+.font-heding{
+ width: 194px;
+height: 23px;
+font-weight: 700;
+ font-size: 15px;
+line-height: 23px;
+color: #131313;
+}
+
+.Features_enjoy_img img{
+    width: 520px;
+    height: 782px;
+border-radius: 8px;
+
+}
+
+.features-discption-text{
+    margin-right: 20%;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+/*------------ 10+Year-div------------------ */
+
+.ten-Year-div{
+   position:relative;
+ bottom: 30%;
+margin-left: 490px;
+}
+.Year-btn{
+    width: 312px;
+    height: 150px;
+    background: #FF900E;
+    border-radius: 8px;
+    border:0 ;
+}
+
+.Year-btn a{
+    width: 258px;
+height: 109px;
+font-weight: 500;
+font-size: 25px;
+line-height: 25px;
+text-align: center;
+color: #FFFFFF;
+}
+.span-Year{
+    width: 158px;
+    height: 109px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 70px;
+    text-align: center; 
+    color: #FFFFFF;
+}
+
+/*---------- Some-Facts-contener ---------*/
+.Some-Facts-contener{
+    width: 540px;
+    height: 870px;
+    margin-left: 14% ;
+    margin-top: 5%;
+}
+.div4{
+    display:flex ;
+ justify-content: space-between;
+}
+.Facts-head-text{
+    width: 258px;
+    height: 53px;
+font-weight: 700;
+font-size: 35px;
+line-height: 53px;
+color: #131313;
+}
+.img-txt-main{
+ width: 200px;
+height: 200px;
+border: 2px solid #FF900E;
+border-radius: 8px;
+margin: 3px;
+margin-left: 10%;
+margin-top: 2%;
+}
+.position{
+   padding: 30px;
+   padding-top: 0%;
+}
+.img-txt-main img{
+    width: 65px;
+height: 65px;
+margin-top: 25%;
+margin-left: 30px;
+}
+.number{
+    width: 133px;
+height: 53px;
+font-weight: 400;
+font-size: 35px;
+line-height: 53px;
+color: #424242;
+margin-left: 27%;
+margin-top: 0%;
+margin-bottom: 0%;
+}
+
+.icon-dectt{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 23px;
+    color: #727272;
+    margin-bottom: 10%;
+}
+
+new-section
